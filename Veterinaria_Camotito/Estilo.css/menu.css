@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* HEADER-IMAGEN Y TITULO*/
+.container-titulo-imagen{
+    background-color: #5081e5d3;
+    color: #fff;
+    text-align: center;
+}
+.container-titulo-imagen .container-principal{
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+
+}
+
+.container-titulo-imagen .container-principal img{
+    width: 100px;
+    height: 100px;
+}
+
+.container-titulo-imagen .container-principal .titulo{
+    padding: 30px 0 0 10px;
+}
+.container-titulo-imagen .container-principal .titulo .nombre{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+/*MENU */
+.menu{
+    background-color: #30497c;
+    color: #fff;
+    height: 70px;
+    position: sticky;
+}
+.menu .menu-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.menu .menu-container #links-menu{
+    height: 100%;
+    display: flex;
+}
+
+.menu .menu-container #links-menu .menu-item{
+    list-style: none;
+    position: relative;
+    height: 100%;
+}
+
+.menu .menu-container #links-menu .menu-item .menu-link{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 30px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.menu .menu-container #links-menu .menu-item .menu-link:hover{
+    background-color: #12161e9e;
+}
+
+/* MENU-BUSCADOR*/
+.container-buscador{
+    width: 250px;
+    background: rgba(244, 243, 243, 0.648);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 15px;
+    color: #fff;
+}
+
+.container-buscador .buscar-texto{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: 0;
+}
+
+.container-buscador button{
+    margin: 0;
+    height: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 0;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.container-buscador button:hover{
+    background-color:  #5081e5d3;
+    cursor: pointer;
+    color: wheat;
+}
+
+/*FOOTER */
+footer{
+    background: #30497c;
+}
+.contenedor-footer{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+.contenedor-footer .parte-izq{
+    width: 450px;
+    padding: 10px 5px;
+}
+
+.contenedor-footer .parte-drcha{
+    display: flex;
+    width: 450px;
+}
+
+
+.parte-drcha .logotipo img {
+    width: 125px;
+}
+
+.parte-drcha .logos-y-title .title{
+    padding: 5px 10px 0px;
+}
+.parte-drcha .logos-y-title .title h3{
+    font-size: 20px;
+}
+.parte-drcha .logos-y-title .logos{
+    padding: 10px;
+}
+.parte-drcha .logos-y-title .logos img{
+    height: 35px;
+}

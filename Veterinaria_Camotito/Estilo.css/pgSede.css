@@ -1,0 +1,108 @@
+body{
+    background-image: url(../Imagenes/background-2.jpg);
+}
+
+
+/*SILDER MANUAL Y DISEÑO */
+.slider{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+.slider input{
+    display: none;
+}
+
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.navigation-manual{
+    position: absolute;
+    width: 100%;
+    margin: -40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background: #144446ee;}
+
+#radio1:checked ~ .first{
+    margin-left: 0;   
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+hr{
+    border: solid black 2px;
+    width: 90%;
+    margin: auto;
+}
+#ubicacion{
+    display: flex;
+    flex-direction: column;
+}
+.ubi{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-right: 1000px;
+}
+.u{
+    margin-bottom: 20px;
+    text-align: center;
+    margin-right: 1000px;
+    font-size: 15pt;
+}
+h2{
+    margin-top: 40px;
+   text-align: center;
+   font-family: Verdana;
+   font-size: 25pt;
+}
+.contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    text-align: center;
+}
+.p{
+    margin-left: 100px;
+    font-size: 15pt;
+    margin-bottom: 30px;
+}
+.t{
+    font-size: 15pt;
+}

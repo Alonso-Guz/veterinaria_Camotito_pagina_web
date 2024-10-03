@@ -1,0 +1,45 @@
+
+body{
+    background-image: url(../Imagenes/background-2.jpg);
+}
+
+.Servicio{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 25px auto 25px auto;
+}
+.contenedor1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor1 .conte{
+    display: flex;
+    width: 500px;
+    border: solid black 2px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(235, 222, 200);
+    margin-bottom: 15px;
+
+}
+.consulta{
+
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #30497c;
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.contenido{
+    width: 200px;
+}
+img{
+    border-radius: 10px;
+}
+
+  

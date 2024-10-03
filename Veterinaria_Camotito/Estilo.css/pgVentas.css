@@ -1,0 +1,115 @@
+
+body{
+    background-image: url(../Imagenes/background-2.jpg);
+}
+.ventas{
+    display: flex;
+    width: 70%;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+
+.ventas .productos-menu{
+    display: flex;
+}
+.ventas .menu-ventas{
+    display: block;
+    width: fit-content;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    height: 195px;
+    background: #fff;
+}
+
+
+.menu-ventas .elementos{
+    margin: 8px ;
+    width: 80px;
+}
+.menu-ventas .elementos .item-elemento{
+    list-style: none;
+}
+
+.menu-ventas .elementos button{
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+.menu-ventas .elementos button:hover{
+    color: skyblue;
+}
+
+.menu-ventas .item-elemento:not(:first-child){
+    margin: 4px auto;
+}
+.menu-ventas .elementos a:hover{
+    color: blueviolet;
+}
+
+.menu-lista{
+    width: auto;
+    margin: 0 10px;
+}
+.menu-lista .contenedor-venta{
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 650px;
+}
+
+.contenedor-venta:not(:first-child){
+    margin-top: 15px;
+}
+.contenedor-venta .item{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+}
+
+.contenedor-venta .item .nombre-item{
+    width: 50%;
+}
+.contenedor-venta .item img{
+    width: 80px;
+    margin-right: 10px;
+    height: 80px;
+}
+.contenedor-venta .item-detalles{
+    margin: 0 10px;
+    width: 22%;
+}
+
+
+
+
+
+/*carrito compras */
+.carrito{
+    border: 1px solid #666;
+    width: 20%;
+    margin-top: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: auto;
+    position: sticky !important;
+    top: 0;
+    transition: .3s;
+
+}
+.carrito .header-carrito{
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+.carrito .carrito-item{
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid #666;
+    padding: 20px;
+}
+
+.carrito .carrito-item img{
+    width: 60px;
+}

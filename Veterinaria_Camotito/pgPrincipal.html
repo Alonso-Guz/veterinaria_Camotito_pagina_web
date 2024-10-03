@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="Estilo.css/pgPrin.css">
+    <title>Veterinaria Camotito</title>
+</head>
+<body>
+        <header>
+        </header>
+        
+        <!-- PAGINA PRINCIPAL //  SLIDER INICIO    -->
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+    
+                <div class="slide first">
+                    <img src="Imagenes/Carrousel01.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Imagenes/Carrousel02.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Imagenes/Carrousel03.jpg" alt="">
+                </div>
+                
+    
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
+            </div>
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+        </div>
+    
+        <hr>
+        <!-- PAGINA PRINCIPAL // SERVICIOS Y PRODUCTOS -->
+        <div class="servicios">
+            <div class="servicios-tittle">
+                <h2>Servicios</h2>
+            </div>
+            <div class="servicios-contenedor">
+                <div class="servicios-nro-contenedor">
+                    <div class="imagen-contenedor">
+                        <img src="Imagenes/servicios-main-1.jpg" alt="">
+                    </div>
+                    <div class="texto-contendor">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolorum dolor esse quas eligendi optio id iusto, </p>
+                    </div>
+                </div>
+                <div class="servicios-nro-contenedor">
+                    <div class="imagen-contenedor">
+                        <img src="Imagenes/servicios-main-2.jpeg" alt="">
+                    </div>
+                    <div class="texto-contendor">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, quam quibusdam. Ipsa cum amet optio necessitatibus ducimus excepturi, saepe</p>
+                    </div>
+                </div>
+                <div class="servicios-nro-contenedor">
+                    <div class="imagen-contenedor">
+                        <img src="Imagenes/servicios-main-1.jpg" alt="">
+                    </div>
+                    <div class="texto-contenedor">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, nulla, aut amet porro culpa, fuga dolorum molestias officiis praesentium .
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="productos-boton">
+                <button><a href="pgServicio.html">Ver más</a></button>
+            </div>
+        </div>
+        <hr>
+        <div class="productos">
+            <h3 class="title-product">Productos</h3>
+            <div class="carousel">
+                <button class="carousel-btn left-btn">&#8249;</button>
+                <div class="productos-contenedor">
+                    <div class="productos-nro-contenedor" data-name="p-1">
+                        <img src="Imagenes/comida01.png" alt="Nutrientes">
+                        <h3>Proplan</h3>
+                        <div class="price">s/25.00</div>
+                    </div>
+                    <div class="productos-nro-contenedor" data-name="p-2">
+                        <img src="Imagenes/higiene-01.jpg" alt="Comida Enlatada">
+                        <h3>Bobby</h3>
+                        <div class="price">s/20.00</div>
+                    </div>
+                    <div class="productos-nro-contenedor" data-name="p-3">
+                        <img src="Imagenes/medic1.png" alt="Comida de Gato" src="">
+                        <h3>Simparica</h3>
+                        <div class="price">s/15.00</div>
+                    </div>
+                    <div class="productos-nro-contenedor" data-name="p-4">
+                        <img src="Imagenes/ropa01.jpg" alt="Comida de Perro">
+                        <h3>Ropa navideña</h3>
+                        <div class="price">s/18.00</div>
+                    </div>
+                    <div class="productos-nro-contenedor" data-name="p-5">
+                        <img src="Imagenes/antip1.jpg" alt="Comida de Perro">
+                        <h3>Proteggo</h3>
+                        <div class="price">s/26.00</div>
+                    </div>
+                    <div class="productos-nro-contenedor" data-name="p-6">
+                        <img src="Imagenes/casas01.jpg" alt="Comida de Perro">
+                        <h3>Casa para Gatos</h3>
+                        <div class="price">s/40.00</div>
+                    </div>
+                </div>
+                <button class="carousel-btn right-btn">&#8250;</button>
+            </div>
+            <div class="productos-boton">
+                <button><a href="pgVentas.html">Ver más</a></button>
+            </div>
+        </div>
+        <hr>
+        <div class="formulario-gps">
+            <div class="formulario-contacto">
+                <form id="myForm">
+                    <h2>Contáctanos</h2>
+                    <input type="text" name="Nombre" placeholder="Ejemplo Nombre">
+                    <input type="text" name="correo" placeholder="ejemplo@email.com">
+                    <input type="text" name="telefono" placeholder="xxx-xxx-xxx">
+                    <textarea name="mensaje" placeholder="Escriba aqui su mensaje"></textarea>
+                    <input type="submit" value="ENVIAR" id="boton">
+                </form>
+            </div>
+            <div class="gps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11792.498355973674!2d-77.04534844407108!3d-12.06146254262794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c98be91eb747%3A0xae065c7846af0741!2sServipetSalud-%20Urgencias%20Veterinarias%2024h!5e0!3m2!1ses!2spe!4v1684600470446!5m2!1ses!2spe" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <footer>
+        </footer>
+        <script src="Java.js/pgPrincipal.js" text="javascript"></script>
+        <script src="Java.js/menu/footer&menu.js" text="javascript"></script>
+</body>
+</html>
